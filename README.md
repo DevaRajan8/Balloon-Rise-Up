@@ -16,7 +16,24 @@ To get started with the Balloon Rise Up game, follow these steps:
 
 1. **Clone the Repository**
    ```sh
-   git clone https://github.com/yourusername/balloon-rise-up.git
+   git clone https://github.com/yourusername/Balloon-Rise-Up.git
 2. **Navigate to the source directory**
    ```sh
-   cd balloon-rise-up/src
+   cd Balloon-Rise-Up/src
+
+### Usage
+-To play the game, follow these instructions:
+
+Start the Game
+-Run the compiled game on the Jack Virtual Machine or the appropriate emulator provided by your development environment.
+
+-If you are using the Nand2Tetris tools, follow these steps:
+
+-Open the VM Emulator from the Nand2Tetris tools.
+-Load the compiled .vm files located in the src directory.
+-Start the VM Emulator to run the game.
+-Control the Balloon
+-Use the left and right arrow keys to move the balloon and avoid obstacles.
+
+Objective
+-Keep the balloon rising without colliding with the obstacles. The game ends when a collision occurs.
