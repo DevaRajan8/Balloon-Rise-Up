@@ -32,6 +32,7 @@ If you are using the Nand2Tetris tools, follow these steps:
 3. **Open a terminal and navigate to the directory where you extracted the Nand2Tetris tools.**
 4. **Run the JackCompiler on the `src` directory:**
    ```sh
+   
    tools/JackCompiler.sh path/to/balloon-rise-up/src
 
 ### Usage
