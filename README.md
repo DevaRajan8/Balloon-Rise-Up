@@ -38,4 +38,7 @@ To play the game, follow these instructions:
 
 3. **Objective**
    - Keep the balloon rising without colliding with the obstacles. The game ends when a collision occurs.
+  
+### License
 
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
