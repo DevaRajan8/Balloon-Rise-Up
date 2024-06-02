@@ -61,4 +61,3 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 Acknowledgements
 Nand2Tetris for providing the Jack programming language and development tools.
-Special thanks to the contributors and the open-source community for their support.
