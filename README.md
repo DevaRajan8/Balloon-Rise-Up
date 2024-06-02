@@ -55,9 +55,10 @@ To play the game, follow these instructions:
 
 4. **Application Screenshots:**
 
-    - **Home Page Overview:**
+    - **Start Screen Overview**
     
-      - ![WhatsApp Image 2024-05-20 at 17 41 04_7ea27fe9](https://github.com/Sharukesh3/LLM-for-hydrogen-storage/assets/153832931/b3b14888-5d73-44e5-94a4-ea5b4e78ddb7)
+      - ![WhatsApp Image 2024-06-02 at 15 48 47_188e8180](https://github.com/DevaRajan8/Balloon-Rise-Up/assets/153832931/6b24babd-9195-492d-ae55-60e8954cd1c6)
+)
 
 
     - **Summarizer Tool:**
