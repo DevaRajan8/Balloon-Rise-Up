@@ -55,23 +55,24 @@ To play the game, follow these instructions:
 
 4. **Application Screenshots:**
 
-    - **Start Screen Overview**
+    - **Start Screen:**
     
       - ![WhatsApp Image 2024-06-02 at 15 48 47_188e8180](https://github.com/DevaRajan8/Balloon-Rise-Up/assets/153832931/6b24babd-9195-492d-ae55-60e8954cd1c6)
 )
 
 
-    - **Summarizer Tool:**
+    - **Gameplay Screen:**
     
-      - ![WhatsApp Image 2024-05-20 at 17 41 03_9a5cace9](https://github.com/Sharukesh3/LLM-for-hydrogen-storage/assets/153832931/98ce4281-af8d-4c39-adc9-bee84108d312)
+      - ![WhatsApp Image 2024-06-02 at 15 49 00_6b6aaa7e](https://github.com/DevaRajan8/Balloon-Rise-Up/assets/153832931/f5e988ca-6a6a-4e45-a4fe-09725201bbee)
 
 
-    - **Question-Answering Bot:**
+
+    - **Balloon Collision Screen:**
     
-      - ![WhatsApp Image 2024-05-20 at 17 41 03_4e40b017](https://github.com/Sharukesh3/LLM-for-hydrogen-storage/assets/153832931/d2f92d57-ef20-4224-a96b-05e121e059b7)
+      - ![WhatsApp Image 2024-06-02 at 15 49 12_90953f86](https://github.com/DevaRajan8/Balloon-Rise-Up/assets/153832931/9b0f783d-eb41-4df9-b570-0448dd39072b)
 
 
-  
+
 ### License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
