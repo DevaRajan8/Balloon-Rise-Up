@@ -56,3 +56,17 @@ To play the game, follow these instructions:
 ### License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+### Acknowledgments
+
+Thank you for utilizing the Balloon Rise Up game project! We hope you enjoy playing it and find it both challenging and entertaining.
+
+### Contact
+
+For any inquiries or feedback, feel free to contact us:
+
+- sharukesh@gmail.com
+- shayanathif13@gmail.com
+- rdeva6046@gmail.com
+- p8001479@gmail.com
+
