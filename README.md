@@ -53,7 +53,14 @@ To play the game, follow these instructions:
 3. **Control the Balloon**
    - Use the left and right arrow keys to move the balloon and avoid obstacles.
 
-4.**Application ScreenShots**
+4. **Application Screenshots**
+
+#### Home Page Overview
+![Home Page Overview](WhatsApp Image 2024-05-20 at 17 41 04_7ea27fe9)
+
+#### Summarizer Tool
+![Summarizer Tool](WhatsApp Image 2024-05-20 at 17 41 03_9a5cace9)
+
   
 ### License
 
