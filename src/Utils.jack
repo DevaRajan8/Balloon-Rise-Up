@@ -1,0 +1,11 @@
+class Utils{
+    function void drawRectWithClamp(int x1, int x2, int y1, int y2){
+        do Screen.drawRectangle(
+            Math.max(0, x1),
+            Math.min(255, x2),
+            Math.max(0, y1),
+            Math.min(255, y2)
+        );
+        return;
+    }
+}
