@@ -22,18 +22,20 @@ To get started with the Balloon Rise Up game, follow these steps:
    cd Balloon-Rise-Up/src
 
 ### Usage
--To play the game, follow these instructions:
 
-Start the Game
--Run the compiled game on the Jack Virtual Machine or the appropriate emulator provided by your development environment.
+To play the game, follow these instructions:
 
--If you are using the Nand2Tetris tools, follow these steps:
+1. **Start the Game**
+   - Run the compiled game on the Jack Virtual Machine or the appropriate emulator provided by your development environment.
+   
+   If you are using the Nand2Tetris tools, follow these steps:
+   - Open the VM Emulator from the Nand2Tetris tools.
+   - Load the compiled `.vm` files located in the `src` directory.
+   - Start the VM Emulator to run the game.
 
--Open the VM Emulator from the Nand2Tetris tools.
--Load the compiled .vm files located in the src directory.
--Start the VM Emulator to run the game.
--Control the Balloon
--Use the left and right arrow keys to move the balloon and avoid obstacles.
+2. **Control the Balloon**
+   - Use the left and right arrow keys to move the balloon and avoid obstacles.
 
-Objective
--Keep the balloon rising without colliding with the obstacles. The game ends when a collision occurs.
+3. **Objective**
+   - Keep the balloon rising without colliding with the obstacles. The game ends when a collision occurs.
+
