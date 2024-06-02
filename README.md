@@ -43,7 +43,7 @@ To play the game, follow these instructions:
    - Keep the balloon rising without colliding with the obstacles. The game ends when a collision occurs.
 
 2. **Start the Game**
-   - Run the compiled game on the Jack Virtual Machine or the appropriate emulator provided by your development environment.
+   - Run the compiled game on the Jack Virtual Machine Emulator
    
    If you are using the Nand2Tetris tools, follow these steps:
    - Open the VM Emulator from the Nand2Tetris tools.
@@ -54,12 +54,7 @@ To play the game, follow these instructions:
    - Use the left and right arrow keys to move the balloon and avoid obstacles.
 
 4. **Application Screenshots**
-
-#### Home Page Overview
-![Home Page Overview](WhatsApp Image 2024-05-20 at 17 41 04_7ea27fe9)
-
-#### Summarizer Tool
-![Summarizer Tool](WhatsApp Image 2024-05-20 at 17 41 03_9a5cace9)
+   - StartScreen Overview
 
   
 ### License
