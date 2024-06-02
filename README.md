@@ -53,8 +53,22 @@ To play the game, follow these instructions:
 3. **Control the Balloon**
    - Use the left and right arrow keys to move the balloon and avoid obstacles.
 
-4. **Application Screenshots**
-   - StartScreen Overview
+4. **Application Screenshots:**
+
+    - **Home Page Overview:**
+    
+      - ![WhatsApp Image 2024-05-20 at 17 41 04_7ea27fe9](https://github.com/Sharukesh3/LLM-for-hydrogen-storage/assets/153832931/b3b14888-5d73-44e5-94a4-ea5b4e78ddb7)
+
+
+    - **Summarizer Tool:**
+    
+      - ![WhatsApp Image 2024-05-20 at 17 41 03_9a5cace9](https://github.com/Sharukesh3/LLM-for-hydrogen-storage/assets/153832931/98ce4281-af8d-4c39-adc9-bee84108d312)
+
+
+    - **Question-Answering Bot:**
+    
+      - ![WhatsApp Image 2024-05-20 at 17 41 03_4e40b017](https://github.com/Sharukesh3/LLM-for-hydrogen-storage/assets/153832931/d2f92d57-ef20-4224-a96b-05e121e059b7)
+
 
   
 ### License
