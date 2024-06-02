@@ -16,7 +16,7 @@ To get started with the Balloon Rise Up game, follow these steps:
 
 1. **Clone the Repository**
    ```sh
-   git clone https://github.com/yourusername/Balloon-Rise-Up.git
+   git clone https://github.com/DevaRajan8/Balloon-Rise-Up.git
 2. **Navigate to the source directory**
    ```sh
    cd Balloon-Rise-Up/src
