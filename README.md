@@ -21,6 +21,19 @@ To get started with the Balloon Rise Up game, follow these steps:
    ```sh
    cd Balloon-Rise-Up/src
 
+### Compile the Jack Files
+
+Use the Jack compiler to compile the `.jack` files. You can use the Jack tools provided by your development environment or the [Nand2Tetris software suite](https://www.nand2tetris.org/software).
+
+If you are using the Nand2Tetris tools, follow these steps:
+
+1. **Download the Nand2Tetris software suite from [here](https://www.nand2tetris.org/software).**
+2. **Extract the downloaded files to a directory on your computer.**
+3. **Open a terminal and navigate to the directory where you extracted the Nand2Tetris tools.**
+4. **Run the JackCompiler on the `src` directory:**
+   ```sh
+   tools/JackCompiler.sh path/to/balloon-rise-up/src
+
 ### Usage
 
 To play the game, follow these instructions:
