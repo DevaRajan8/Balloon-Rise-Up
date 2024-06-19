@@ -1,0 +1,42 @@
+class CollisionDetector {
+    // Method to check collision
+    field Utils sine;
+    constructor CollisionDetector new(int rad) {
+        let sine = Utils.setScale(rad);
+        return this;
+    }
+    
+    method boolean checkCollision(int cx, int cy, int r, int rx, int ry, int rw, int rh) {
+        // Pranav's version
+        // We get rect xy bounds and closest line to balloon center
+        var int xl, xr, yu, yd, closeY, deadXl, deadXr;
+        let xl = rx;
+        let xr = rx + rw;
+        let yu = ry;
+        let yd = ry + rh;
+        // closest line to ball y level
+        if (yd < cy){
+            let closeY = cy - yd;
+        }
+        if (yu < cy){
+            if (yd > cy){
+                let closeY = 0;
+            }
+        }
+        if (yu > cy) {
+            let closeY = yu - cy;
+        }
+        if (closeY > r) {
+            return false; //Too far
+        }
+        // Calculate Deadzone
+        let deadXl = xl - sine.scaledSin(closeY); // should be r*sin(closeY/r);
+        let deadXr = xr + sine.scaledSin(closeY); // Same as above
+        if(cx > deadXl) {
+            if(cx < deadXr){
+                return true;
+            }
+        }
+        return false;
+    }
+}
