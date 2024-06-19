@@ -4,7 +4,7 @@ class Main {
         var obstacle ob1;
         var obstacle ob2;
         var CollisionDetector detector;
-        var int inp, rad, score;
+        var int inp, rad;
         var int gameloop;
         var boolean isColliding1;
         var boolean isColliding2;
@@ -12,18 +12,18 @@ class Main {
         let rad = 25;
         let gameloop = 1;
         do Startscreen.go();
-        let b = balloon.new(256, 200, rad); 
+        let b = balloon.new(250, 200, rad); 
         let ob1 = obstacle.new(95, 45, 78);
         let ob2 = obstacle.new(310, 173, 43);
-        let detector = CollisionDetector.new(200, rad);
+        let detector = CollisionDetector.new(rad);
 
         do b.draw();    
         do ob1.obs();
         do ob2.obs();
-        let score = 0;
+
         while (gameloop = 1) {
-            let score = score + 1;
             do Screen.clearScreen();
+            do b.moveUp();
             let inp = Keyboard.keyPressed();
             if (inp = 130) {
                 do b.moveLeft();
@@ -32,12 +32,12 @@ class Main {
                 do b.moveRight();
             }
             do b.draw();
-            do ob1.gravity(2);
-            do ob2.gravity(2);
+            do ob1.gravity(2 + b.getLevel());
+            do ob2.gravity(2 + b.getLevel());
 
             // Check for collisions
-            let isColliding1 = detector.checkCollision(b.getx(), ob1.getx(), ob1.gety());
-            let isColliding2 = detector.checkCollision(b.getx(), ob2.getx(), ob2.gety());
+            let isColliding1 = detector.checkCollision(b.getx(), b.gety(), b.getRadius(), ob1.getx(), ob1.gety(), ob1.getWidth(), ob1.getHeight());
+            let isColliding2 = detector.checkCollision(b.getx(), b.gety(), b.getRadius(), ob2.getx(), ob2.gety(), ob2.getWidth(), ob2.getHeight());
 
             // Debug prints
             //do Output.printString("Balloon position: ");
@@ -57,10 +57,11 @@ class Main {
             //do Output.printString(", ");
             //do Output.printInt(ob2.gety());
             //do Output.println();
+
             do Output.moveCursor(4, 4);
-            do Output.printString("Score: ");
-            do Output.printInt(score);
-            do Output.println();
+            do Output.printString("Level: ");
+            do Output.printInt(b.getLevel());
+
             if (isColliding1 | isColliding2) {
                 do Output.printString("Collision detected");
                 do Output.println();

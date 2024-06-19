@@ -29,6 +29,11 @@ class Startscreen {
 		do Output.moveCursor(9, 10);
 		do Output.printString(str);
 		do str.dispose();
+
+		let srt = "Collect coins to increase the score by 1";
+		do Output.moveCursor(10, 10);
+		do Output.printString(str);
+		do str.dispose();
 		
 	
 		let cycles = 0;

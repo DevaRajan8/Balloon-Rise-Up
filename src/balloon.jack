@@ -1,10 +1,11 @@
 class balloon {
-    field int x, y, radius;
+    field int x, y, radius, level;
 
     constructor balloon new(int initialX, int initialY, int initialRadius) {
         let x = initialX;
         let y = initialY;
         let radius = initialRadius;
+        let level = 1;
         do draw(); 
 	return this;
     }
@@ -13,6 +14,21 @@ class balloon {
         do Screen.drawCircle(x, y, radius);
         do Screen.drawLine(x, y + radius, x, y + radius + 20); 
 	    return;
+    }
+
+    method void moveUp() {
+        let y = Math.max(30,y-5);
+        do checkHeight();
+        return;
+    }
+
+    method void checkHeight() {
+        if (y<35){
+            //let x = 250;
+            let y = 200;
+            let level = level +1;
+        }
+        return;
     }
 
     method void moveLeft() {
@@ -35,6 +51,10 @@ class balloon {
 
     method int getRadius() {
         return radius;
+    }
+
+    method int getLevel() {
+        return level;
     }
 }
 
